@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,dl,dd,ul,article,h3,h5{
+	margin:0;
+	padding:0;
+}
+header{
+	width: 100%;
+    height: 283px;
+    clear: both;
+}
+.tops{
+	background: #f1f1f1;
+    height: 31px;
+}
+form{
+	width: 1000px;
+    height: 31px;
+    margin: 0 auto;
+	line-height: 31px;
+}
+.tops img{
+	float:right;
+	vertical-align:central;
+	margin-top:5px;
+	margin-left:10px;
+}
+.tops input{
+	float:right;
+	width: 144px;
+    height: 22px;
+	padding-left:20px;
+	background:url(../imgs/in-ss0.png) no-repeat;
+	border:0;
+	margin-top:4px;
+}
+nav{
+	width: 1000px;
+    height: 82px;
+    position: relative;
+    margin: 0 auto;
+	display:flex;
+}
+nav img{
+	padding-left:80px;
+	padding-top: 16px;
+    height: 50px;
+}
+nav ul{
+	margin-left:40px;
+	margin-top: 28px;
+    width: 820px;
+    height: 46px;
+	display:flex;
+	position:relative;
+}
+nav ul a{
+	height: 46px;
+    margin: 0 0 0 5px;
+    padding: 0 11px 0 0;
+	font-size:16px;
+	color:#333;
+	line-height: 46px;
+	background:url(../imgs/in-xtb.png) no-repeat right center;
+}
+nav ul a:nth-child(11){
+	background:0;
+}
+nav ul img{
+	width: 23px;
+    height: 17px;
+    position: absolute;
+    top:-20px;
+    left:435px;
+}
+.banner{
+	width:100%;
+}
+.banner img{
+	width:100%;
+	min-width:1000px;
+}
+/*头部*/
+article{
+	width:1000px;
+	margin:0 auto;
+	display:flex;
+}
+.pleft{
+	margin:0;
+    width: 244px;
+	background:url(../imgs/gy-bj.gif) repeat-y;
+}
+.cate h3{
+	background:url(../imgs/gy-h3bj.gif) no-repeat;
+	width: 244px;
+    height: 60px;
+    font-size: 18px;
+    color: #606060;
+    font-weight: normal;
+    line-height: 76px;
+    padding-left: 15px;
+}
+.cate h3 span{
+	font-family:Arial;
+    font-size: 14px;
+    color: #c9c9c9;
+    margin-left: 6px;
+}
+.pleft ul a{
+	height: 43px;
+    line-height: 43px;
+    margin: 0 1px;
+	background:url(../imgs/gy2-6.gif) no-repeat;
+	padding-left: 32px;
+    display: block;
+    color: #797676;
+	font-size:14px;
+}
+.pleft ul a:hover{
+	background:url(../imgs/gy2-1.jpg) no-repeat;
+	color: #fff
+}
+.pleft img{
+	width:244px;
+}
+.mll p{
+	width: 242px;
+    height: 25px;
+    font-size: 22px;
+    color: #4F4F4F;
+    font-family: Arial;
+	padding: 28px 0 8px 25px;
+}
+.mll p:first-child{
+	background:url(../imgs/gy2-4.gif) no-repeat;
+}
+.mll p:last-child{
+	background:url(../imgs/gy2-5.gif) no-repeat;
+	font-size: 12px;
+}
+.nobx{
+	width: 239px;
+    height: 89px;
+	display:flex;
+	padding-bottom:80px;
+}
+.qq{
+	background:url(../imgs/nlogo_qq2.gif) no-repeat;
+	width: 81px;
+    height: 89px;
+}
+.wb{
+	background:url(../imgs/nlogo_wb.gif) no-repeat;
+	width: 81px;
+    height: 89px;
+}
+.wb:hover{
+	background:url(../imgs/nlogo2_wb.gif) no-repeat;
+}
+.wx{
+	background:url(../imgs/nlogo_wx.jpg) no-repeat;
+	width: 81px;
+    height: 89px;
+}
+.wx:hover{
+	background:url(../imgs/nlogo2_wx.jpg) no-repeat;
+}
+.wx img{
+	position:absolute;
+	width: 150px;
+    height: 170px;
+    left:470px;
+    top:770px;
+	display:none;
+}
+.wx:hover img{
+	display:block;
+}
+.pri{
+	width: 745px;
+}
+.loca{
+	border-bottom: 1px solid #f6f6f6;
+    padding: 13px 5px 13px 22px;
+    height: 29px;
+    background: #fbfbfb;
+	display:flex;
+	justify-content:space-between;
+}
+.loca h3{
+	font-size: 23px;
+    color: #6A6969;
+    font-weight: 400;
+}
+.loca span{
+	font-size: 14px;
+    color: #7d7d7d;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+.box{
+	width: 730px;
+    padding: 15px 0 15px 25px;
+}
+.box h1{
+	font-size: 18px;
+    color: #c12a2f;
+    font-weight: 400;
+	text-align: center;
+}
+.box span{
+	display:block;
+	background-color: #f5f5f5;
+    text-align: center;
+    padding: 10px;
+    color: #b2b2b2;
+    margin: 10px 0;
+}
+.box p{
+	margin:5px 0;
+	color:#252525;
+	text-indent:2em;
+	font-size:14px;
+}
+/*middil*/
+footer{
+	width:100%;
+	height:167px;
+	background: #2c2c2c;
+}
+.link{
+	width:100%;
+	margin:0 auto;
+	border-bottom:1px solid #999;
+}
+.link p{
+	width:400px;
+	text-align:center;
+	margin:0 auto;
+	display:flex;
+	color: #8D8D8D;
+	padding:15px 0;
+}
+.copy{
+	width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: #8D8D8D;
+}
+.copy img{
+	margin-top:20px;
+}
